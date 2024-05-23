@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(love.jpg) center /cover no-repeat fixed;
+    font:1em/1.618 Inter, sans-sarif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: 200px;
+    padding: 35px;
+    font-size: 15px;
+    color: #281f1f;
+    border: 1px solid rgba(251, 251, 251, 0.377);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.549);
+    box-shadow: 0 0 10px;
+}
+
+.button {
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+}
+
+#No {
+    background-color: red;
+    color: white;
+}
+
+#Yes {
+    background-color: green;
+    color:white;
+}
